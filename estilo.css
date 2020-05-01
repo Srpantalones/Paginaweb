@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+
+h1,h2,h3{
+	color: Peru;
+	text-align: center;
+	font-size: 180%;
+}
+
+h1 {
+  p {
+  color: Peru;
+  text-align: center;
+  font-family: italic;
+  font-size: 180%;
+}
+}
+submit.input {
+	color: black;
+  font-family: courier;
+  border: 1px solid PowderBlue;
+  padding: 30px;
+
+}
+ul {
+	color: Peru;
+  text-align: left;
+  font-family: courier;
+  font-size: 140%;
+  border: 1px solid PowderBlue;
+  padding: 30px;
+
+}
+a{
+   border: 1px solid PowderBlue;
+  padding: 30px;
+}
+
+p {
+  color: Peru;
+  text-align: center;
+  font-family: courier;
+  font-size: 160%;
+  border: 1px solid PowderBlue;
+  padding: 30px;
+}

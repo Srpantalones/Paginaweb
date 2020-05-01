@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang="es">
+
+<head>
+	<meta chartset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Contactenos </title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/Star Wars.ico">
+	<link href="estilo.css" rel="stylesheet" type="text/css">
+	
+		<style>
+	 {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Style the side navigation */
+	.sidenav {
+	  height: 100%;
+	  width: 200px;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	}
+
+
+	/* Side navigation links */
+	.sidenav a {
+	  color: peru;
+	  padding: 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	/* Change color on hover */
+	.sidenav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	/* Style the content */
+	.content {
+	  margin-left: 200px;
+	  padding-left: 20px;
+	}
+</style>
+</head>
+
+<body>
+<div class="content">
+<h2>Estar en contacto con nuestras ofertas</h2>
+	<form id="form order">
+			
+		<p>
+		<label for="name"> Nombre (obligatorio) </label>
+		<input type="text" name="name" id="name"
+		placeholder="ejemplo: Maria Betania"
+		autofocus
+		autocomplete
+		required>
+		</p>
+		<p>
+		<label for="phone"> Telefono </label>
+		<input type="tel" name="phone" id="phone"
+		placeholder="+04124749233">
+		</p>
+		
+		<p>
+		<label for="email"> Email </label>
+		<input type="email" name="email" id="email"
+		placeholder="ejemplo@email.com">
+		</p>			
+		
+		<input type ="submit" value="enviar">
+
+	</form>
+	</div>
+	<div class="sidenav">
+  <a href="Servicios.html" >Nuestros Servicios</a>
+<a href="Productos.html" >Nuestros productos</a>
+<a href="Pagina_Principal.html" >Inicio</a>
+</div>
+<div class="content">
+	<h3>Nuestros numeros</h3>
+	<p> 04124749233 </p>
+	<p> 02584330450 </p>
+	
+</div>
+
+</body>
+</html>
